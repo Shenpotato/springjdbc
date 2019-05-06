@@ -1,5 +1,6 @@
-package com.shenpotato;
+package com.shenpotato.jdbc;
 
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -7,7 +8,7 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
 /**
- * Created by Shen_potato on 2019/4/21.
+// * Created by Shen_potato on 2019/4/21.
  * 推荐使用JdbcTemplate作为成员变量的方式使用
  */
 @Repository
@@ -23,5 +24,4 @@ public class AdministorDao {
         System.out.println(administor);
         return administor;
     }
-
 }

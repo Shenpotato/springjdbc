@@ -1,4 +1,4 @@
-package com.shenpotato;
+package com.shenpotato.jdbc;
 
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -40,8 +40,8 @@ public class JDBCTest {
 
     @Test
     public void testUpdate(){
-        String sql = "UPDATE student SET sbirth = ? WHERE sid =? ";
-        jdbcTemplate.update(sql,19981122,122);
+        String sql = "UPDATE administor SET apassword = ? WHERE aid =? ";
+        jdbcTemplate.update(sql,"111111","00001");
     }
 
 

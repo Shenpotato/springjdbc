@@ -1,4 +1,4 @@
-package com.shenpotato;
+package com.shenpotato.jdbc;
 
 /**
  * Created by Shen_potato on 2019/4/21.
